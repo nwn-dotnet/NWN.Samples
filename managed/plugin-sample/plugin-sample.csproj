@@ -24,6 +24,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="NWN.Managed" Version="8193.20.9" ExcludeAssets="runtime" />
+      <PackageReference Include="NWN.Managed" Version="8193.20.10" ExcludeAssets="runtime" />
     </ItemGroup>
 </Project>
