@@ -9,7 +9,7 @@ namespace Sample
   public class MyPluginService
   {
     // Called at startup. NWN.Managed resolves EventService for us.
-    public MyPluginService(EventService eventService)
+    public MyPluginService(NativeEventService eventService)
     {
       // Subscribe to the OnClientEnter event, and call our OnClientEnter function when someone connects.
       eventService.Subscribe<NwModule, ModuleEvents.OnClientEnter>(NwModule.Instance, OnClientEnter);
